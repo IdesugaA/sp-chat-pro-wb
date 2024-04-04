@@ -1,5 +1,5 @@
 <script setup>
-	import groupinfo from '../GrpInfo.js'
+	import { groupinfo } from '../GrpInfo.js'
 	import { useRouter } from 'vue-router'	
 
 	const $router = useRouter()
@@ -34,7 +34,7 @@
 	<div class="list">
 		<ul>
 			<li v-for="info in groupinfo.grpInfoAr" @click="chat(info)">
-				<img src=/>
+				<img >
 				<div class="labeldiv">
 				<div class="namediv">{{ info.groupName }}</div>
 				<div class="msgdiv">{{ info.lastMsg }}</div>>
@@ -65,4 +65,4 @@
 		height:100%;
 	}
 
-<
+</style>

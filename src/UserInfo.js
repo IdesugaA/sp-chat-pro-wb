@@ -5,7 +5,7 @@ export const userinfo = reactive({
 	userid: "",
 	username: "",
 	createTime: "",
-	friendIdList: []
+	friendIdList: [],
 	groupIdList: []
 
 })

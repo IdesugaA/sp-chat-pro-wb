@@ -35,7 +35,7 @@
 	<div class="list">
 		<ul>
 			<li v-for="info in friendinfo.friInfoAr">
-				<img src=/>
+				<img />
 				<div class="labeldiv" @click="chat(info)">
 				<div class="namediv">{{ info.friendName }}</div>
 				<div class="msgdiv">{{ info.lastMsg }}</div>>

@@ -1,7 +1,7 @@
 <script setup>
 
 
-	import { UserInfo } from '../FriInfo.js'
+	import { userinfo } from '../UserInfo.js'
 	import { useRoute , useRouter } from 'vue-router'
 
 	const $route = useRoute()
